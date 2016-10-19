@@ -48,7 +48,7 @@ def unset_win():
 if __name__=='__main__':
     try:
         set_win()
-        display_info('Hola, curses!',0,100)
+        display_info('Hola, curses!',0,10)
         display_info('Press any key to continue...',0,10)
         get_ch_and_continue()
     except Exception,e:
